@@ -134,3 +134,12 @@ Counseling and Co-parenting Centers by CareCorner.],
   organisation: "Teaching Assistant, NUS School of Computing",
   date: "Fall 2019",
 )
+
+#resume_heading("Theses")
+#grant_item(
+  name: "Formalizing Coq Modules in the MetaCoq Project",
+  organisation: "Bachelor's Thesis",
+  desc: [Advisors: Nicolas Tabareau, Martin Henz, Yue Yang. 
+  Grade: A],
+  date: "2023"
+)
