@@ -117,3 +117,46 @@
   set text(size: 0.91em)
   pad(left: 1em, right: 0.5em, block[*#category*: #skills])
 }
+
+#let grant_item(
+  name: "name",
+  organisation: "organisation",
+  desc: "desc",
+  date: "date"
+) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, grid(
+    columns: (3fr, 1fr), 
+    align(left)[ *#name*, _#organisation _\ #desc ],
+    align(right)[ #date ]
+    ))
+}
+
+#let award_item(
+  name: "name",
+  organisation: "organisation",
+  date: "date"
+) = {
+  set block(above: 0.7em)
+  pad(left: 1em, right: 0.5em, grid(
+    columns: (3fr, 1fr), 
+    align(left)[ *#name*, _#organisation _],
+    align(right)[ #date ]
+    ))
+}
+
+#let pub_item(
+  name: "A Stepper for a Functional JavaScript Sublanguage", 
+  authors: "Joint work with Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Xinyi Zhang, Jingjing Zhao", 
+  conf: "SPLASH-E 2021"
+) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, grid(
+    columns: (3fr, 1fr),
+    align(left)[
+      *#name* \
+      _#authors _
+    ],
+    align(right)[#conf]
+  ))
+}
