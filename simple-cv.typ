@@ -33,6 +33,14 @@
 
 #resume_heading[Experience]
 #exp_item(
+  role: "Research Intern, M1 Internship",
+  name: "Cambium, Inria",
+  location: "Paris, France",
+  date: "May 2024 - Aug 2024",
+  [Advisor: Yannick Forster],
+  [Formalized Coq's module system in the MetaCoq project],
+)
+#exp_item(
   role: "Research Intern",
   name: "Gallinette, Inria",
   location: "Nantes, France",
@@ -48,23 +56,24 @@
   [Jointly designed and packaged a Google BigQuery to Apache Kafka data ingestion tool],
   [Increased data ingestion rate from $~10$k to > $3000$k rows/second using Google Cloud Dataflow]
 )
-#exp_item(
-  role: "Software Engineering Intern",
-  name: "Computing for Voluntary Welfare Organisations (CVWO), NUS",
-  location: "Singapore",
-  date: "May 2019 - Aug 2019",
-  [Streamlined and digitized volunteering workflow for more than 100 students every year
-by developing and maintaining a Volunteer Management System for the GIC Sparks
-and Smiles program.],
-  [For more than 6000 clients and 100 staff, reduced operating costs and increased the
-accuracy of data capture by maintaining a Case Management System for the
-Counseling and Co-parenting Centers by CareCorner.],
-)
+// #exp_item(
+//   role: "Software Engineering Intern",
+//   name: "Computing for Voluntary Welfare Organisations (CVWO), NUS",
+//   location: "Singapore",
+//   date: "May 2019 - Aug 2019",
+//   [Streamlined and digitized volunteering workflow for more than 100 students every year
+// by developing and maintaining a Volunteer Management System for the GIC Sparks
+// and Smiles program.],
+//   [For more than 6000 clients and 100 staff, reduced operating costs and increased the
+// accuracy of data capture by maintaining a Case Management System for the
+// Counseling and Co-parenting Centers by CareCorner.],
+// )
 
 #resume_heading("Publications")
 #pub_item(
   name: "A stepper for a JavaScript Sublanguage",
-  authors: [Joint work with Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Xinyi Zhang, Jingjing Zhao]
+  authors: [Jww. Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Xinyi Zhang, Jingjing Zhao],
+  doi: "https://doi.org/10.1145/3371076"
 )
 
 #resume_heading("Awards")

@@ -148,13 +148,14 @@
 #let pub_item(
   name: "A Stepper for a Functional JavaScript Sublanguage", 
   authors: "Joint work with Martin Henz, Thomas Tan, Zachary Chua, Peter Jung, Xinyi Zhang, Jingjing Zhao", 
+  doi: "doi.org/1234567",
   conf: "SPLASH-E 2021"
 ) = {
   set block(above: 0.7em, below: 1em)
   pad(left: 1em, right: 0.5em, grid(
     columns: (3fr, 1fr),
     align(left)[
-      *#name* \
+      *#name* (#doi) \
       _#authors _
     ],
     align(right)[#conf]
