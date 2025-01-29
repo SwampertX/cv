@@ -1,3 +1,4 @@
+#set page("a4", margin: (top: 2cm, bottom: 2.3cm))
 #set text(size: 13pt)
 #set par(first-line-indent: 1em, justify: true)
 #show link : body => text(blue, body)
@@ -9,9 +10,10 @@ I am Yee-Jian Tan, an incoming second-year Master's student at
 of Research in Computer Science), in France. I am writing to express my
 enthusiastic interest in attending the "Proof and Computation" Autumn School
 2024 at Aurachhof. My research interests lie in Type Theory, Proof Assistants,
-and Logic, particularly in the metatheory of proof assistants. The courses
-offered by this autumn school align perfectly with my research focus on proofs
-and computation, thus it would be a great honor to join the school in
+and Logic, particularly in the metatheory of proof assistants, and I am planning
+to do a PhD in these areas. The courses offered by this autumn school align
+perfectly with my research focus on proofs and computation and are taught by
+wonderful professors, thus it would be a great honor to join the school in
 Fischbachau this September.
 
 Since May 2024, I have been undertaking my Master's Year 1 internship with
@@ -27,29 +29,30 @@ Guard Condition of Coq], held on 3 June by the
 #link("https://www.irif.fr/reciprog/index")[RECIPROG project] in Nantes, France,
 where it was well received.
 
-In 2022, I worked on the formalization of the Modules system of Coq in MetaCoq
-during my undergraduate internship under the guidance of Nicolas Tabareau.
-Alongside Martin Henz and Yue Yang, I co-authored my
+In 2022, I worked on formalizing the Modules system of Coq in MetaCoq during my
+undergraduate internship with Nicolas Tabareau. Together with co-supervisors
+Martin Henz and Yue Yang, I wrote my
 #link("https://github.com/SwampertX/undergraduate-thesis")[bachelor's thesis] on
-this topic, which received an A grade from the National University of Singapore,
-where I completed a dual bachelor's degree in Mathematics and Computer Science.
+the same topic, which received an A grade from the National University of
+Singapore, thus completing a dual bachelor's degree in Computer Science and
+Mathematics with Highest Distinction.
 
 During the first two semesters of my Master's Year 1 (M1) in 2023-24, I studied
-the formalization of type theory in type theory via Category with Families under
+the categorical formalization of type theory via Category with Families under
 the supervision of Ambrus Kaposi. This project culminated in a small
 formalization of (a less-dependent version of) Category with Families in Agda.
-Among the courses I studied in M1,
+Besides, among the courses I studied in M1,
 #link("http://www.lix.polytechnique.fr/Labo/Samuel.Mimram/teaching/INF551/")[INF551
 Computational Logic], taught by Samuel Mimram, was the most relevant to my
 research interests. I was awarded full marks (20/20) in this course, where I
 implemented, for the final project, a dependent type-checker / proof-assistant
-supporting Dependent Function, Equality, and Natural Number types.
+supporting Dependent Function types, Equality types, and Natural Number types.
 
-As an international student studying in Paris, I am seeking funding to attend
-the autumn school, which I am eager to join but cannot afford without financial
-assistance. I believe this is an excellent opportunity to further my research
-and connect with like-minded researchers and peers, as I enter my final year in
-my master's programme.
+As an international student studying in the expensive city of Paris, I am
+seeking funding to attend the autumn school, which I am eager to join but cannot
+afford without financial assistance. I believe this is an excellent opportunity
+to further my research and connect with like-minded researchers and peers, as I
+enter my final year in my master's programme and get ready for my PhD.
 
 Thank you very much for considering my application, and I look forward to your
 favorable response.

@@ -77,7 +77,7 @@
   role: "Worker",
   date: "June 1837 - May 1845",
   location: "Foo, BA",
-  ..points
+  desc
 ) = {
     set block(above: 0.7em, below: 1em)
     pad(left: 1em, right: 0.5em, box[
@@ -92,7 +92,7 @@
           _#location _
         ]
       )
-      #list(..points)
+      #desc
     ])
 }
 
@@ -132,15 +132,33 @@
     ))
 }
 
+#let thesis_item(
+  name: "name",
+  organisation: "organisation",
+  desc: "desc",
+  date: "date"
+) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, grid(
+    columns: (4fr, 1fr), 
+    align(left)[ *#name*, _#organisation _\ #desc ],
+    align(right)[ #date ]
+    ))
+}
+
 #let award_item(
   name: "name",
   organisation: "organisation",
-  date: "date"
+  date: "date",
+  description: none
 ) = {
   set block(above: 0.7em)
   pad(left: 1em, right: 0.5em, grid(
     columns: (3fr, 1fr), 
-    align(left)[ *#name*, _#organisation _],
+    align(left)[ *#name*, _#organisation _ #if description != none {
+      linebreak()
+      pad(left: 1em)[#description]
+    }],
     align(right)[ #date ]
     ))
 }
@@ -153,7 +171,7 @@
 ) = {
   set block(above: 0.7em, below: 1em)
   pad(left: 1em, right: 0.5em, grid(
-    columns: (3fr, 1fr),
+    columns: (4fr, 1fr),
     align(left)[
       *#name* (#doi) \
       _#authors _

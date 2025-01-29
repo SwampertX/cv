@@ -5,27 +5,28 @@
 #header(
   name: "Yee-Jian Tan",
   phone: "+33 7 52 04 32 55",
-  email: "tanyeejian@gmail.com",
+  email: "yee-jian.tan@polytechnique.edu",
   // linkedin: "linkedin.com/in/yeejian-tan",
   site: "yeejian.dev",
 )
 
 #resume_heading[Education]
 #edu_item(
-  name: "École Polytechnique",
+  name: "Institut Polytechnique de Paris (École Polytechnique)",
   degree: [
-  Master of Theoretical Computer Science (Master Parisien de Recherche en Informatique)
+  Masters in Computer Science Research (Master Parisien de Recherche en Informatique)
+  - Specialisation: Logic, Type Theory (M1: 3.84/4)
   ],
   location: "Paris, France",
-  date: "Aug 2023 - Mar 2025"
+  date: "Sep 2023 - Aug 2025"
 )
 #edu_item(
   name: "National University of Singapore",
   degree: [
   Bachelors of Computing with Honours (Computer Science), Distinction (4.48/5)
-  - Specialization: Algorithms and Computation
+  - Specialisation: Algorithms and Computation
   Bachelors of Science (Mathematics), Highest Distinction (4.50/5)
-  - Specialization: Abstract Algebra, Logic
+  - Specialisation: Abstract Algebra, Logic
   ],
   location: "Singapore",
   date: "Aug 2018 - May 2023"
@@ -34,28 +35,28 @@
 #resume_heading[Experience]
 #exp_item(
   role: "Research Intern, M1 Internship",
-  name: "Cambium, Inria",
+  name: "Cambium, Inria Paris",
   location: "Paris, France",
   date: "May 2024 - Aug 2024",
-  [Advisor: Yannick Forster],
-  [Formalized Coq's module system in the MetaCoq project],
+  [Topic: Towards Formalising the Guard Checker of Coq.
+  Advised by Yannick Forster.]
 )
 #exp_item(
   role: "Research Intern",
-  name: "Gallinette, Inria",
+  name: "Gallinette, Inria Nantes",
   location: "Nantes, France",
   date: "May 2022 - Aug 2022",
-  [Advisor: Nicolas Tabareau],
-  [Formalized Coq's module system in the MetaCoq project],
+  [Topic: Formalising Coq Modules in the MetaCoq project.
+  Advised by Nicolas Tabareau.],
 )
-#exp_item(
-  role: "Intern, Machine Learning Engineer",
-  name: "Gojek Singapore",
-  location: "Singapore",
-  date: "May 2020 - Sep 2020",
-  [Jointly designed and packaged a Google BigQuery to Apache Kafka data ingestion tool],
-  [Increased data ingestion rate from $~10$k to > $3000$k rows/second using Google Cloud Dataflow]
-)
+// #exp_item(
+//   role: "Intern, Machine Learning Engineer",
+//   name: "Gojek Singapore",
+//   location: "Singapore",
+//   date: "May 2020 - Sep 2020",
+//   [Jointly designed and packaged a Google BigQuery to Apache Kafka data ingestion tool],
+//   [Increased data ingestion rate from $~10$k to > $3000$k rows/second using Google Cloud Dataflow]
+// )
 // #exp_item(
 //   role: "Software Engineering Intern",
 //   name: "Computing for Voluntary Welfare Organisations (CVWO), NUS",
@@ -78,6 +79,11 @@
 
 #resume_heading("Awards")
 #award_item(
+  name: [Honourable Mention ("Mention de Félicitations")],
+  organisation: [École Polytechnique],
+  date: "2024"
+)
+#award_item(
   name: "Senior Honour Roll",
   organisation: "NUS University Scholars Programme",
   date: "2022 - 2023"
@@ -99,8 +105,8 @@
 #grant_item(
   name: "Masters Mobility Programme",
   organisation: "French Embassy to Malaysia",
-  desc: [1-year grant covering tuition fees and living expenses in France.],
-  date: "2023 - 2024"
+  desc: [2-year Master's grant covering tuition fees and living expenses in France.],
+  date: "2023 - 2025"
 )
 
 #grant_item(
@@ -121,31 +127,37 @@
 #award_item(
   name: "Programming Methodology I",
   organisation: "Teaching Assistant, NUS School of Computing",
-  date: "Fall 2022",
+  date: [Fall 2019, 2020, 2021],
 )
 #award_item(
   name: "Programming Methodology I",
   organisation: "Teaching Assistant, NUS School of Computing",
   date: "Summer 2021",
-)
-#award_item(
-  name: "Programming Methodology I",
-  organisation: "Teaching Assistant, NUS School of Computing",
-  date: "Fall 2020",
-)
-#award_item(
-  name: "Programming Methodology I",
-  organisation: "Teaching Assistant, NUS School of Computing",
-  date: "Fall 2019",
+  description: [
+    Led tutorial/lab sessions for students of the Faculty of Engineering.
+  ]
 )
 #award_item(
   name: "Programming Methodology I (S)",
   organisation: "Teaching Assistant, NUS School of Computing",
   date: "Fall 2019",
+  description: [
+    // Based on #link("https://sourceacademy.org/sicpjs/index")[SICP].
+    Based on SICP.
+    Led tutorial/lab sessions for Computer Science students.
+  ]
 )
 
 #resume_heading("Theses")
-#grant_item(
+#thesis_item(
+  name: "Towards Formalizing the Guard Checker of Coq",
+  organisation: [Masters Year 1 Thesis],
+  desc: [Advisors: Yannick Forster. \
+  _Honourable Mention ("Mention de Félicitations") by École Polytechnique on L3/M1 Theses_\
+  Presented at Coq Workshop 2024.],
+  date: "2024"
+)
+#thesis_item(
   name: "Formalizing Coq Modules in the MetaCoq Project",
   organisation: "Bachelor's Thesis",
   desc: [Advisors: Nicolas Tabareau, Martin Henz, Yue Yang. 
