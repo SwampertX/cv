@@ -5,20 +5,29 @@
 #header(
   name: "Yee-Jian Tan",
   phone: "+33 7 52 04 32 55",
-  email: "yee-jian.tan@polytechnique.edu",
+  email: "yee-jian.tan@kuleuven.be",
   // linkedin: "linkedin.com/in/yeejian-tan",
   site: "yeejian.dev",
 )
 
 #resume_heading[Education]
 #edu_item(
+  name: "Katholieke Universiteit Leuven (KU Leuven)",
+  degree: [PhD in Computer Science (Topic: Implementation of Multimodal Type Theory for Agda)],
+  location: "Leuven, Belgium",
+  date: "Sep 2025 - Aug 2029"
+)
+#edu_item(
   name: "Institut Polytechnique de Paris (École Polytechnique)",
   degree: [
   Masters in Computer Science Research (Master Parisien de Recherche en Informatique)
-  - Specialisation: Logic, Type Theory (M1: 3.84/4)
+  // M1: 16.08 (70 ects)
+  // M2: 15.88 (63 ects)
+  // total = 15.985 (3dp)
+  Specialisation: Type Theory, Logic (16.0/20)
   ],
   location: "Paris, France",
-  date: "Sep 2023 - Aug 2025"
+  date: "Sep 2023 - Sep 2025"
 )
 #edu_item(
   name: "National University of Singapore",
@@ -34,20 +43,25 @@
 
 #resume_heading[Experience]
 #exp_item(
+  role: "Research Intern, M2 Internship",
+  name: [DistriNet, KU Leuven (Advisors: Andreas Nuyts, Dominique Devriese)],
+  location: "Leuven, Belgium",
+  date: "Apr 2025 - Aug 2025",
+  [Topic: Towards Computational UIP in Cubical Agda.]
+)
+#exp_item(
   role: "Research Intern, M1 Internship",
-  name: "Cambium, Inria Paris",
+  name: [Cambium, Inria Paris (Advisor: Yannick Forster)],
   location: "Paris, France",
   date: "May 2024 - Aug 2024",
-  [Topic: Towards Formalising the Guard Checker of Coq.
-  Advised by Yannick Forster.]
+  [Topic: Towards Formalising the Guard Checker of Coq.]
 )
 #exp_item(
   role: "Research Intern",
-  name: "Gallinette, Inria Nantes",
+  name: [Gallinette, Inria Nantes (Advisor: Nicolas Tabareau)],
   location: "Nantes, France",
   date: "May 2022 - Aug 2022",
-  [Topic: Formalising Coq Modules in the MetaCoq project.
-  Advised by Nicolas Tabareau.],
+  [Topic: Formalising Coq Modules in the MetaCoq project.],
 )
 // #exp_item(
 //   role: "Intern, Machine Learning Engineer",
@@ -150,11 +164,21 @@
 
 #resume_heading("Theses")
 #thesis_item(
+  name: "Towards Computational UIP in Cubical Agda",
+  organisation: [Masters Year 2 Thesis],
+  desc: [Advisors: Dominique Devriese, Andreas Nuyts.
+  // \ Grade: 17/20
+  ],
+  date: "2025"
+)
+#thesis_item(
   name: "Towards Formalizing the Guard Checker of Coq",
   organisation: [Masters Year 1 Thesis],
   desc: [Advisors: Yannick Forster. \
   _Honourable Mention ("Mention de Félicitations") by École Polytechnique on L3/M1 Theses_\
-  Presented at Coq Workshop 2024.],
+  Presented at Coq Workshop 2024, TYPES 2025.
+  // Grade: 18/20
+  ],
   date: "2024"
 )
 #thesis_item(
